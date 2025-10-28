@@ -14,6 +14,7 @@ TagManager:
   - Cherry
   - PowerPellet
   - Ghost
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -22,6 +23,10 @@ TagManager:
   - Water
   - UI
   - Countdown&Gameover
+  - 
+  - Water
+  - UI
+  - 
   - 
   - 
   - 
