@@ -3,11 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+  tags:
+  - Wall
+  - GhostWall
+  - Teleport
+  - Floor
+  - Pellet
+  - TeleporterL
+  - TeleporterR
+  - Cherry
+  - PowerPellet
+  - Ghost
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+  - Level
+  - Water
+  - UI
+  - Countdown&Gameover
   - 
   - Water
   - UI
@@ -40,4 +55,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Cherry
+    uniqueID: 873790283
+    locked: 0
+  - name: HUD
+    uniqueID: 3649987777
     locked: 0
