@@ -357,7 +357,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 0, y: 250}
+=======
+  m_AnchoredPosition: {x: 0, y: 100}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &18515273
@@ -1792,7 +1796,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 0, y: 100}
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &91324728
@@ -1815,9 +1823,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_text: 'Score:
 
     000000'
+=======
+  m_text: 'Score: 000000'
+>>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0512807133b01474184e928e598015d3, type: 2}
   m_sharedMaterial: {fileID: -3137464850392999503, guid: 0512807133b01474184e928e598015d3, type: 2}
@@ -1826,8 +1838,13 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
+<<<<<<< Updated upstream
     rgba: 4288282751
   m_fontColor: {r: 0.49629587, g: 0, b: 0.6037736, a: 1}
+=======
+    rgba: 4278244875
+  m_fontColor: {r: 0.044068784, g: 0.8396226, b: 0, a: 1}
+>>>>>>> Stashed changes
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2885,7 +2902,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream
   m_Color: {r: 0.8878879, g: 0.5707547, b: 1, a: 0.392}
+=======
+  m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0.49019608}
+>>>>>>> Stashed changes
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3216,6 +3237,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!1 &141007338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3247,6 +3269,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 257782830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &141131158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4064010863768828113, guid: a3ed1a8164ed21043afcab742a173220, type: 3}
@@ -5337,7 +5361,11 @@ RectTransform:
   - {fileID: 1793661400}
   - {fileID: 236845802}
   - {fileID: 91324727}
+<<<<<<< Updated upstream
   - {fileID: 2116823307}
+=======
+  - {fileID: 1990901656}
+>>>>>>> Stashed changes
   - {fileID: 126150104}
   - {fileID: 1424361129}
   m_Father: {fileID: 0}
@@ -5432,7 +5460,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 0, y: 200}
+=======
+  m_AnchoredPosition: {x: 0, y: 50}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 237.54, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &236845803
@@ -5520,7 +5552,11 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
+<<<<<<< Updated upstream
   m_margin: {x: 0, y: 0, z: -27.090263, w: 0}
+=======
+  m_margin: {x: 0, y: 0, z: -91.96523, w: 0}
+>>>>>>> Stashed changes
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5641,6 +5677,29 @@ PrefabInstance:
       propertyPath: DemoIntro
       value: 
       objectReference: {fileID: 8300000, guid: 10e87fc541a45454284a8f4c0f56f1f1, type: 3}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 4744795177042098902, guid: da7552425d08e544e8c31dee485121e0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4744795177042098902, guid: da7552425d08e544e8c31dee485121e0, type: 3}
+      propertyPath: OneGhostDown
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d9682a54a480d94e9f15f73ee8e593a, type: 3}
+    - target: {fileID: 4744795177042098902, guid: da7552425d08e544e8c31dee485121e0, type: 3}
+      propertyPath: OneGhostLeft
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d9682a54a480d94e9f15f73ee8e593a, type: 3}
+    - target: {fileID: 4744795177042098902, guid: da7552425d08e544e8c31dee485121e0, type: 3}
+      propertyPath: ScaredGhosts
+      value: 
+      objectReference: {fileID: 8300000, guid: 6dd76d34127be2947bf31ee8b1b3a64e, type: 3}
+    - target: {fileID: 6927023694229803304, guid: da7552425d08e544e8c31dee485121e0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6236,11 +6295,18 @@ MonoBehaviour:
   wallCollide: {fileID: 8699592145215724132, guid: e6a26c5263eab444082017086cd9ac7f, type: 3}
   score: 0
   scoreText: {fileID: 91324728}
+<<<<<<< Updated upstream
   lives: 3
+=======
+>>>>>>> Stashed changes
   liveImages:
   - {fileID: 18515273}
   - {fileID: 583495860}
   - {fileID: 1060476824}
+<<<<<<< Updated upstream
+=======
+  scaredText: {fileID: 1990901657}
+>>>>>>> Stashed changes
 --- !u!50 &257782834
 Rigidbody2D:
   serializedVersion: 4
@@ -6998,7 +7064,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< Updated upstream
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 1091256085, guid: edbc398b34594344f9162210cba57ad4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12781,7 +12851,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< Updated upstream
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 1091256085, guid: edbc398b34594344f9162210cba57ad4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13324,7 +13398,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 50, y: 250}
+=======
+  m_AnchoredPosition: {x: 50, y: 100}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &583495860
@@ -24046,7 +24124,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 100, y: 250}
+=======
+  m_AnchoredPosition: {x: 100, y: 100}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1060476824
@@ -26837,7 +26919,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< Updated upstream
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 1091256085, guid: edbc398b34594344f9162210cba57ad4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -39011,6 +39097,10 @@ GameObject:
   - component: {fileID: 1772394986}
   - component: {fileID: 1772394985}
   - component: {fileID: 1772394987}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1772394988}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -39061,6 +39151,24 @@ MonoBehaviour:
   countdownText: {fileID: 1424361127}
   countdownSeconds: 3
   goSecond: 1
+<<<<<<< Updated upstream
+=======
+  timerText: {fileID: 236845803}
+  timerCount: 0
+  ending: 0
+--- !u!114 &1772394988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772394984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a347a87ad4701f4a812b4b0ae2465fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1 &1775055874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1306384030620214017, guid: a66911a8e54e7204a9afe798f7174b07, type: 3}
@@ -39401,7 +39509,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 0, y: 300}
+=======
+  m_AnchoredPosition: {x: 0, y: 150}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1793661401
@@ -39433,8 +39545,13 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
+<<<<<<< Updated upstream
     rgba: 4281990949
   m_fontColor: {r: 0.14509803, g: 1, b: 0.224537, a: 1}
+=======
+    rgba: 4288282751
+  m_fontColor: {r: 0.49803922, g: 0, b: 0.6039216, a: 1}
+>>>>>>> Stashed changes
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -39855,11 +39972,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8844767330541319674, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8844767330541319674, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
       propertyPath: m_LocalPosition.y
       value: -17
+=======
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844767330541319674, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8844767330541319674, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39901,9 +40026,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8844767330541319674, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2016325091}
+<<<<<<< Updated upstream
     - targetCorrespondingSourceObject: {fileID: 8844767330541319674, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
       insertIndex: -1
       addedObject: {fileID: 141007339}
+=======
+>>>>>>> Stashed changes
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 631730747745557157, guid: 2e95f75f4ec2f1844bba7e8e5eec1660, type: 3}
       insertIndex: -1
@@ -41488,6 +41616,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 361472946376145934, guid: 5d49e546e0d5204439ed12543967a61d, type: 3}
   m_PrefabInstance: {fileID: 881474360764870065}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1888578974
 GameObject:
   m_ObjectHideFlags: 0
@@ -41624,6 +41753,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888578974}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1889806101 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5905383548657470390, guid: c492d7737f0b3404b8fa3da5d5d48f73, type: 3}
@@ -41900,7 +42031,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< Updated upstream
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 1091256085, guid: edbc398b34594344f9162210cba57ad4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -44237,6 +44372,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990901655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 0, z: -16.567812}
   m_LocalScale: {x: 0.012316805, y: 0.012316805, z: 0.015396006}
   m_ConstrainProportionsScale: 0
@@ -44248,6 +44384,19 @@ RectTransform:
   m_AnchoredPosition: {x: -6.777771, y: -1.1064758}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.80000013, y: 0.80000013, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 232327457}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -608}
+  m_SizeDelta: {x: 1920, y: 1440}
+  m_Pivot: {x: 0, y: 0.5}
+>>>>>>> Stashed changes
 --- !u!114 &1990901657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44268,7 +44417,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_text: 000
+=======
+  m_text: 'Ghost Timer: 0'
+>>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0512807133b01474184e928e598015d3, type: 2}
   m_sharedMaterial: {fileID: -3137464850392999503, guid: 0512807133b01474184e928e598015d3, type: 2}
@@ -46525,6 +46678,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!1 &2116823306
 GameObject:
   m_ObjectHideFlags: 0
@@ -46558,6 +46712,8 @@ Transform:
   - {fileID: 1990901656}
   m_Father: {fileID: 232327457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2121802719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3182789003896933045, guid: 269cb6794536aaf43a9db26158dd7d62, type: 3}
@@ -48965,7 +49121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3367217101478277437, guid: 7b431fd8a0634f44aa0382a53811049b, type: 3}
       propertyPath: m_Enabled
+<<<<<<< Updated upstream
       value: 0
+=======
+      value: 1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4255802768035663899, guid: 7b431fd8a0634f44aa0382a53811049b, type: 3}
       propertyPath: m_SortingOrder
@@ -49024,6 +49184,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1663076542423138419, guid: 7b431fd8a0634f44aa0382a53811049b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717903112530005353}
+<<<<<<< Updated upstream
+=======
+    - targetCorrespondingSourceObject: {fileID: 1663076542423138419, guid: 7b431fd8a0634f44aa0382a53811049b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1717903112530005358}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 7b431fd8a0634f44aa0382a53811049b, type: 3}
 --- !u!1 &1717903112530005352 stripped
 GameObject:
@@ -49103,6 +49269,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1717903112530005358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717903112530005352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786fd4462b5c6de44b0d953b11e2252c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimator: {fileID: 0}
+  isDead: 0
+>>>>>>> Stashed changes
 --- !u!1001 &3259048856698454009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49121,7 +49304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5284494044537294105, guid: 224726e808e35df4d815e02c1714d03f, type: 3}
       propertyPath: m_Enabled
+<<<<<<< Updated upstream
       value: 0
+=======
+      value: 1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6007418746358777504, guid: 224726e808e35df4d815e02c1714d03f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49180,6 +49367,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 68245667438861989, guid: 224726e808e35df4d815e02c1714d03f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3259048856698454011}
+<<<<<<< Updated upstream
+=======
+    - targetCorrespondingSourceObject: {fileID: 68245667438861989, guid: 224726e808e35df4d815e02c1714d03f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3259048856698454015}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 224726e808e35df4d815e02c1714d03f, type: 3}
 --- !u!1 &3259048856698454010 stripped
 GameObject:
@@ -49259,6 +49452,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &3259048856698454015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3259048856698454010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786fd4462b5c6de44b0d953b11e2252c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimator: {fileID: 0}
+  isDead: 0
+>>>>>>> Stashed changes
 --- !u!1001 &4075369709358308651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51075,7 +51285,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2402422581841297478, guid: aa22efd9d41ba644ca9427e957c0c21e, type: 3}
       propertyPath: m_Enabled
+<<<<<<< Updated upstream
       value: 0
+=======
+      value: 1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8355559189487412774, guid: aa22efd9d41ba644ca9427e957c0c21e, type: 3}
       propertyPath: m_SortingOrder
@@ -51094,6 +51308,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1248445808940132247, guid: aa22efd9d41ba644ca9427e957c0c21e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5278959722068820960}
+<<<<<<< Updated upstream
+=======
+    - targetCorrespondingSourceObject: {fileID: 1248445808940132247, guid: aa22efd9d41ba644ca9427e957c0c21e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5278959722068820964}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: aa22efd9d41ba644ca9427e957c0c21e, type: 3}
 --- !u!1 &5278959722068820959 stripped
 GameObject:
@@ -51173,6 +51393,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &5278959722068820964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5278959722068820959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786fd4462b5c6de44b0d953b11e2252c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimator: {fileID: 0}
+  isDead: 0
+>>>>>>> Stashed changes
 --- !u!1001 &6242704913510286420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54701,6 +54938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7493203734753146057, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
       propertyPath: m_Enabled
+<<<<<<< Updated upstream
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8186488031178819703, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
@@ -54710,6 +54948,17 @@ PrefabInstance:
     - target: {fileID: 8186488031178819703, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
       propertyPath: m_LocalPosition.y
       value: -17
+=======
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186488031178819703, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186488031178819703, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8186488031178819703, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54756,6 +55005,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6770391421559050089, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9218537841696139789}
+<<<<<<< Updated upstream
+=======
+    - targetCorrespondingSourceObject: {fileID: 6770391421559050089, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9218537841696139793}
+    - targetCorrespondingSourceObject: {fileID: 6770391421559050089, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9218537841696139797}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 8952c9d273cd4be4a8fd462bddfdf862, type: 3}
 --- !u!1 &9218537841696139788 stripped
 GameObject:
@@ -54835,6 +55093,35 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &9218537841696139793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9218537841696139788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786fd4462b5c6de44b0d953b11e2252c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonAnimator: {fileID: 0}
+  isDead: 0
+--- !u!114 &9218537841696139797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9218537841696139788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd489b1e378cff448a0c7e4168344411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

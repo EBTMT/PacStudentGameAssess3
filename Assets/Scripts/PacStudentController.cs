@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 ﻿using System.Diagnostics;
+=======
+﻿using JetBrains.Annotations;
+using System.Diagnostics;
+>>>>>>> Stashed changes
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,6 +31,7 @@ public class PacStudentController : MonoBehaviour
     public GameObject wallCollide;
     private bool wallCollided = false;
 
+<<<<<<< Updated upstream
     //GUI
     public int score = 0;
     public TextMeshProUGUI scoreText;
@@ -37,10 +43,42 @@ public class PacStudentController : MonoBehaviour
     private void ScoreTextUpdate()
     {
         scoreText.text = "Score: " + score;
+=======
+    public int score = 0;
+    public static int pelletCounter = 222;
+    public TextMeshProUGUI scoreText;
+    public static int lives = 3;
+    public Image[] liveImages;
+
+    private bool respawning = false;
+    private float deathTimer = 0f;
+    private float respawnTimer = 2f;
+    private Vector3 spawnLocation;
+
+    public TextMeshProUGUI scaredText;
+    private float powerUpLength = 0f;
+    public static bool powerUpActive = false;
+    private bool recovery = false;
+
+
+
+    private void ScoreTextUpdate()
+    {
+        scoreText.text = "Score: " + score.ToString("D6");
+    }
+
+    private void ScaredTextUpdate()
+    {
+        scaredText.text = "Ghost Timer: " + powerUpLength.ToString("F0");
+>>>>>>> Stashed changes
     }
 
     void Start()
     {
+<<<<<<< Updated upstream
+=======
+        spawnLocation = transform.position;
+>>>>>>> Stashed changes
         movePoint.parent = null;
         wizardWalk = GetComponent<Animator>();
         
@@ -48,8 +86,57 @@ public class PacStudentController : MonoBehaviour
 
     void Update()
     {
+<<<<<<< Updated upstream
         if (!alive) return;
         ScoreTextUpdate();
+=======
+        ScoreTextUpdate();
+        ScaredTextUpdate();
+        if (powerUpActive)
+        {
+            powerUpLength -= Time.deltaTime;
+
+            if (powerUpLength <= 3f && !recovery)
+            {
+                recovery = true;
+            }
+
+            if (powerUpLength <= 0f)
+            {
+                powerUpActive = false;
+                recovery = false;
+                BGM.Instance?.PlayNormalBGM();
+                var ghosts = FindObjectsOfType<GhostController>();
+                foreach (var g in ghosts)
+                {
+                    if (g != null && g.skeletonAnimator != null)
+                        g.skeletonAnimator.Play("WalkRight");
+                }
+                if (wizardWalk != null)
+                {
+                    Vector3 animTarget;
+                    if (currentDir.sqrMagnitude > 0.0001f)
+                        animTarget = transform.position + currentDir;
+                    else if (movePoint != null)
+                        animTarget = movePoint.position;
+                    else
+                        animTarget = transform.position + Vector3.right;
+                    AnimationDirectionLogic(animTarget);
+                }
+            }
+        }
+
+        if (respawning)
+        {
+            deathTimer += Time.deltaTime;
+            if (deathTimer >= respawnTimer)
+            {
+                Respawn();
+            }
+            return;
+        }
+
+>>>>>>> Stashed changes
         if (Input.GetKeyDown(KeyCode.W)) nextDir = Vector3.up;
         else if (Input.GetKeyDown(KeyCode.S)) nextDir = Vector3.down;
         else if (Input.GetKeyDown(KeyCode.A)) nextDir = Vector3.left;
@@ -104,22 +191,46 @@ public class PacStudentController : MonoBehaviour
         return true;
     }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     private void OnTriggerEnter2D(Collider2D pellet)
     {
         if (pellet.CompareTag("Pellet"))
         {
             WalkSounds.clip = Collect;
             WalkSounds.Play();
+<<<<<<< Updated upstream
             score += 10;
             Destroy(pellet.gameObject);
+=======
+            pelletCounter--;
+            score += 10;
+            Destroy(pellet.gameObject);
+
+            var lo = Object.FindFirstObjectByType<LevelOpening>();
+            if (lo != null) lo.WinState();
+>>>>>>> Stashed changes
         }
         else if (pellet.CompareTag("PowerPellet"))
         {
             WalkSounds.clip = Collect;
             WalkSounds.Play();
+<<<<<<< Updated upstream
             score += 50;
             PowerUp();
             Destroy(pellet.gameObject);
+=======
+            BGM.Instance?.PlayScaredGhosts();
+            pelletCounter--;
+            score += 50;
+            PowerUp();
+            Destroy(pellet.gameObject);
+
+            var lo = FindObjectOfType<LevelOpening>();
+            if (lo != null) lo.WinState();
+>>>>>>> Stashed changes
         }
         else if (pellet.CompareTag("Cherry"))
         {
@@ -130,9 +241,22 @@ public class PacStudentController : MonoBehaviour
         }
         else if (pellet.CompareTag("Ghost"))
         {
+<<<<<<< Updated upstream
             alive = false;
             PacDeath();
         }
+=======
+            if (powerUpActive)
+            {
+                PacKill(pellet.gameObject);
+            }
+            else
+            {
+                PacDeath();
+            }
+        }
+
+>>>>>>> Stashed changes
     }
 
     private void FootStepChecker(Vector3 position)
@@ -151,11 +275,14 @@ public class PacStudentController : MonoBehaviour
                 WalkSounds.Play();
             }
         }
+<<<<<<< Updated upstream
         //else
         //{
         //    WalkSounds.clip = Collide;
         //    WalkSounds.Play();
         //}
+=======
+>>>>>>> Stashed changes
 
         lastTile = hit;
     }
@@ -165,6 +292,7 @@ public class PacStudentController : MonoBehaviour
         Vector3 dir = nextPosition - transform.position;
         if (wizardWalk != null)
         {
+<<<<<<< Updated upstream
             if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
             {
                 if (dir.x > 0) wizardWalk.Play("WizardRight");
@@ -174,6 +302,33 @@ public class PacStudentController : MonoBehaviour
             {
                 if (dir.y > 0) wizardWalk.Play("WizardUp");
                 else wizardWalk.Play("WizardDown");
+=======
+            if (powerUpActive)
+            {
+                if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+                {
+                    if (dir.x > 0) wizardWalk.Play("SuperWizardRight");
+                    else wizardWalk.Play("SuperWizardLeft");
+                }
+                else
+                {
+                    if (dir.y > 0) wizardWalk.Play("SuperWizardUp");
+                    else wizardWalk.Play("SuperWizardDown");
+                }
+            }
+            else
+            {
+                if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+                {
+                    if (dir.x > 0) wizardWalk.Play("WizardRight");
+                    else wizardWalk.Play("WizardLeft");
+                }
+                else
+                {
+                    if (dir.y > 0) wizardWalk.Play("WizardUp");
+                    else wizardWalk.Play("WizardDown");
+                }
+>>>>>>> Stashed changes
             }
         }
     }
@@ -214,7 +369,41 @@ public class PacStudentController : MonoBehaviour
 
     private void PowerUp()
     {
+<<<<<<< Updated upstream
 
+=======
+        powerUpActive = true;
+        recovery = false;
+        powerUpLength = 10f;
+
+        if (wizardWalk != null)
+        {
+            Vector3 animTarget;
+            if (currentDir.sqrMagnitude > 0.0001f)
+                animTarget = transform.position + currentDir;
+            else if (movePoint != null)
+                animTarget = movePoint.position;
+            else
+                animTarget = transform.position + Vector3.right; 
+            AnimationDirectionLogic(animTarget);
+        }
+
+        var ghosts = FindObjectsOfType<GhostController>();
+        foreach (var g in ghosts)
+        {
+            if (g != null && g.skeletonAnimator != null)
+                g.skeletonAnimator.Play("ScaredRight");
+        }
+    }
+
+    private void PacKill(GameObject ghost)
+    {
+        BGM.Instance?.PlayOneGhostDown();
+        score += 300;
+        var gc = ghost.GetComponent<GhostController>();
+        if (gc != null && gc.skeletonAnimator != null)
+            gc.skeletonAnimator.Play("DeadRight");
+>>>>>>> Stashed changes
     }
 
     private void PacDeath()
@@ -222,6 +411,16 @@ public class PacStudentController : MonoBehaviour
         lives--;
         LifeUpdate();
 
+<<<<<<< Updated upstream
+=======
+       
+        respawning = true;
+        deathTimer = 0f;
+
+        currentDir = Vector3.zero;
+        nextDir = Vector3.zero;
+
+>>>>>>> Stashed changes
         wizardWalk.Play("WizardDeath");
         WalkSounds.clip = Death;
         WalkSounds.Play();
@@ -240,7 +439,25 @@ public class PacStudentController : MonoBehaviour
 
     private void Respawn()
     {
+<<<<<<< Updated upstream
         alive = true;
 
     }
+=======
+        if (lives == 0)
+        {
+            var lo = FindObjectOfType<LevelOpening>();
+            if (lo != null) lo.LoseState();
+        }
+
+        transform.position = spawnLocation;
+        movePoint.position = spawnLocation;
+
+       
+        respawning = false;
+        wizardWalk.Play("WizardRight");
+    }
+
+
+>>>>>>> Stashed changes
 }

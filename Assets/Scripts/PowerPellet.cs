@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< Updated upstream
+=======
+using TMPro;
+>>>>>>> Stashed changes
 using UnityEngine;
 
 public class PowerPellet : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public int points = 50;
     public float timer = 10f;
     public PacStudentController pacStudent;
@@ -22,3 +27,9 @@ public class PowerPellet : MonoBehaviour
         Destroy(gameObject);
     }
 }
+=======
+    
+}
+
+
+>>>>>>> Stashed changes

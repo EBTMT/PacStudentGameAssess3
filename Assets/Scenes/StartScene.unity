@@ -876,7 +876,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< Updated upstream
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 2
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -532198380, guid: f904b07a653859041b6dc6c8703c9235, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2160,6 +2164,13 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 3346805855989469991, guid: 8a69f0ac09598534d9a9f05e1466c8e8, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 5887844461719943276, guid: 8a69f0ac09598534d9a9f05e1466c8e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 150
